@@ -1,22 +1,26 @@
 // 1.Fix the syntax & style issues with the three objects below:
 
-//  {firstName 'Yan', lastname: 'Fan' } 
-//  {a: 1, b:2 c: 3 d 4} 
-//  { 
-//        animal: 'dog' 
-//        noise: 'bark', 
-//        age: 3, 
-//        type 'Golden Retriever' 
-//        color: 'Yellow', 
-//  }
+  firstObj={firstName: 'Yan', lastname: 'Fan' } 
+  secondObj={a: 1, b:2, c: 3, d: 4} 
+  thirdObj{ 
+    animal: 'dog' ,
+        noise: 'bark', 
+        age: 3, 
+        type: 'Golden Retriever' ,
+        color: 'Yellow' 
+  }
 // 2. Create an object that represents you. It should contain your first name, last name, age and hometown. Assign it to a variable called person.
-
+var person={firstName:'Adam',lastName:'Bakhouch',age:35,hometown:'ElKef'}
 // 3.Access the favorite food property in the object using dot notation, and reassign it to a different food.
 
 // 4.Change your object to have a single name key, the value of which is an object – this object should have first, last and middle keys containing your first, last, and middle names respectively.
-
+person={obj:identity={firstName:'Adam',middleName:'notAnyMiddleName',lastName:'Bakhouch'} }
 // 5.Write a function called emptyObject that takes no parameters and returns an empty object.
+function emptyObject() {
+return(obj={})
 
+
+}
 // function emptyObject(){  
 //   //Write your code here 
 // }  
